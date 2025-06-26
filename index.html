@@ -2,54 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Surachhya Adhikari | Software Developer</title>
-  <link rel="stylesheet" href="main.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surachhya Adhikari | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
 <body>
-  <div class="container">
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="Surachhya_Adhikari_Resume.pdf" class="button" target="_blank">Download Resume</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <div class="profile-pic"></div>
     <h1>Surachhya Adhikari</h1>
-    <p>Computer Science Student | Software Developer | Team Leader</p>
-    
+    <p>Software Developer | Computer Science Student | Team Leader</p>
+  </header>
+
+  <section id="about">
     <h2>About Me</h2>
-    <p>I'm a CS student at Towson University, passionate about building useful, interactive software. I have led multiple academic projects and love combining logic with creativity.</p>
-    
+    <p>I'm a passionate computer science student at Towson University with a focus in software engineering. I enjoy creating engaging, interactive, and useful software tools that solve real-world problems.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java</li>
+      <li>HTML/CSS</li>
+      <li>C++</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Node.js</li>
+      <li>Git & GitHub</li>
+      <li>VS Code</li>
+    </ul>
+  </section>
+
+  <section id="projects">
     <h2>Projects</h2>
-    
+
     <div class="project">
-      <h3>🎬 ReelVibes – Mood-Based Movie Recommendation Web App</h3>
-      <p>Team Lead – HTML, CSS, JavaScript, Movie API</p>
-      <ul>
-        <li>Designed a responsive UI to suggest movies based on user moods.</li>
-        <li>Integrated third-party API for real-time movie data.</li>
-        <li>Managed GitHub repo and led Agile sprints.</li>
-        <li><a href="https://github.com/Surachhya/reelvibes" target="_blank">View Code</a></li>
-      </ul>
+      <h3>🎬 ReelVibes – Mood-Based Movie Recommendation App</h3>
+      <p>Developed an interactive movie recommendation web app using HTML, CSS, and JavaScript. Integrated third-party Movie API and created a dynamic mood-based interface. Led development and team collaboration in GitHub.</p>
+      <a href="https://github.com/Surachhya/reelvibes" class="button" target="_blank">View on GitHub</a>
     </div>
-    
+
     <div class="project">
-      <h3>📐 Room Dimension Calculator (Java)</h3>
-      <ul>
-        <li>Object-oriented Java app to calculate and compare room areas.</li>
-        <li>Used custom classes, input validation, and method overloading.</li>
-      </ul>
+      <h3>📐 Room Dimension Calculator</h3>
+      <p>Java application that calculates and compares room dimensions using object-oriented programming concepts such as method overloading and encapsulation.</p>
     </div>
-    
+
     <div class="project">
-      <h3>🏆 EGOT Winners Management System (C++)</h3>
-      <ul>
-        <li>Used Binary Search Trees to manage and analyze award data.</li>
-        <li>Demonstrated OOP, data structure implementation, and file handling.</li>
-      </ul>
+      <h3>🏆 EGOT Winners Management System</h3>
+      <p>C++ project implementing Binary Search Trees to store and manage EGOT award data, allowing search, display, and analysis based on award criteria.</p>
     </div>
-    
-    <h2>Resume</h2>
-    <p><a href="your-resume-link.pdf" target="_blank">Download My Resume</a></p>
-    
-    <div class="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:Sadhika4@students.mail.edu">Sadhika4@students.mail.edu</a></p>
-      <p>GitHub: <a href="https://github.com/Surachhya" target="_blank">Surachhya</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-icons">
+      <a href="mailto:Sadhika4@students.mail.edu"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/Surachhya" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a> <!-- Add your LinkedIn URL here -->
     </div>
-  </div>
+  </section>
+
 </body>
 </html>
